@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcelona, Spain</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Barcelona, Spain</h1>
+  </header>
+
+  <main>
+
+              <section class="slideshow">
+  <div id="slideshow-container"></div>
+  <div class="slideshow-buttons">
+    <button id="backbutton" onclick="prevImageGroup()">&#11164</button>
+    <button id="nextbutton" onclick="nextImageGroup()">&#11166</button>
+  </div>
+</section>
+
+
+
+
+
+   <!-- <section class="slideshow">
+      <img id="slideshow-image" src="images/barcelona2.jpg" alt="Barcelona Image" />
+      <div>
+        <button id="nextbutton" onclick="nextImage()">&#10095</button>
+      </div> 
+     
+    </section>  -->
+
+    <section class="content">
+      <p>
+        Barcelona is one of Spain’s most vibrant cities, renowned for its unique architecture, delicious cuisine, and rich culture. 
+        It is home to FC Barcelona and iconic landmarks like the Sagrada Família.
+      </p>
+      <p>
+        The city blends historic charm with modern style, making it a top destination for travelers worldwide.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Barcelona" target="_blank">Learn more on Wikipedia</a> |
+      <a href="https://www.barcelonaturisme.com/" target="_blank">Official Tourism Site</a>
+
+      <br /><br />
+      <button id= "factsbutton" onclick="toggleFacts()">Show / Hide Facts</button>
+      <ul id="facts-list" style="display: none;">
+        <li>Barcelona was founded as a Roman city.</li>
+        <li>The Sagrada Família has been under construction since 1882.</li>
+        <li>Camp Nou is one of the largest football stadiums in the world.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mubin Patel</p>
+    <p>991729935</p>
+    <p><a href="mailto:patelmub@sheridancollege.ca">patelmub@sheridancollege.ca</a></p>
+    <p><a href="" target="_blank">LinkedIn Profile</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

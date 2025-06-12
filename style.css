@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color:  #004D98 ;
+  color: #ffffff;
+}
+
+header {
+  background-image: url("images/barcelona1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+
+        height: 300px;
+}
+
+header h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 120px;
+}
+
+.slideshow {
+  text-align: center;
+  margin: 30px;
+}
+
+/*.slideshow img {
+  width: 70%;
+  max-width: 600px;
+  border: 3px solid #333;
+  border-radius: 10px;
+}
+#slideshow-image {
+  width: auto;
+  height: 300px;
+  border: 3px solid #333;
+  border-radius: 10px;
+}
+
+.slideshow button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}*/
+#slideshow-container {
+ 
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+   width: auto;
+  height: 300px;
+}
+
+.slideshow-img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid #333;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content a {
+  color: #EDBB00;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.content button:hover {
+  background-color: #004c99;
+}
+
+#facts-list {
+  list-style-type: disc;
+  margin-top: 10px;
+  text-align: left;
+  display: inline-block;
+}
+#factsbutton {
+    background-color: #A50044;
+
+}
+
+#nextbutton {
+  background-color:  #004D98 ;
+    border: 0;
+    color: #FFED00;
+
+}
+
+#backbutton {
+    background-color: #004c99;
+    border: 0;
+    color: #ffcc00;
+
+}
+
+footer {
+  background-color:#A50044;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
